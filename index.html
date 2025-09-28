@@ -82,7 +82,7 @@
         const region = 'ag'; // Default region
 
         if (uid) {
-            const url = `https://lordlike.onrender.com/like?uid=${uid}&region=${region}`;
+            const url = `https://like-api-nine.vercel.app/like?uid={uid}&server_name={server}&key=lumina`;
             window.location.href = url; // Redirect
         } else {
             alert('Please enter a valid User ID.');
@@ -92,4 +92,5 @@
 
 </body>
 </html>
+
 
